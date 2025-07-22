@@ -1,4 +1,4 @@
-This repository contains the source code for a travel and tourism management platform i built in an internship/job.
+This repository contains the source code for a travel and tourism management platform i built in work.
 
 Website Features
 
