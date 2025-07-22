@@ -1,4 +1,4 @@
-This repository contains the source code for a full stack travel and tourism management platform I built in work in 2024. Contains the backend,frontend and an admin CMS Panel.
+This repository contains the source code for a full stack travel and tourism management platform I built in work in 2024. Contains the backend,frontend and an admin CMS Panel. Sharing because the company changed tech stack to Java from JS and this codebase is no longer needed for them.
 
 # Features
 
