@@ -1,10 +1,40 @@
-# Traviante
+This repository contains the source code for a travel and tourism management platform i built in an internship/job.
 
-This repository contains the source code for Traviante, a travel and tourism management platform. The project is divided into three main components:
+Website Features
 
--   **`admin_interface/`**: A React-based administration panel for managing destinations, packages, users, and other aspects of the platform.
--   **`backend/`**: A Node.js and Express-based server that provides the API for both the admin and user interfaces.
--   **`user/`**: A React-based user interface for browsing and booking travel packages.
+## Technology Stack
+
+### Backend
+- **Framework:** Express.js
+- **Database:** MySQL
+- **Authentication:** bcrypt, JSON Web Token (JWT)
+- **API:** RESTful API
+
+### Frontend (Admin & User)
+- **Library:** React.js
+- **Styling:** CSS, Bootstrap (Admin), Tailwind CSS (User)
+- **Routing:** React Router
+- **API Client:** Axios
+
+## Admin Panel Features:
+- **Dashboard:** A central overview for administrators.
+- **User Management:** Admins can manage user accounts.
+- **Destination Management:** Add, edit, and remove travel destinations.
+- **Package Management:** Create and manage travel packages.
+- **Accommodation Management:** Handle accommodation listings.
+- **Transportation Management:** Manage transportation options.
+- **Itinerary Management:** Create and customize itineraries for travel packages.
+- **Discount Management:** Apply and manage discounts.
+- **Authentication:** Secure login for administrators.
+
+## User-Facing Website Features:
+- **User Authentication:** Users can register and log in to their accounts.
+- **User Profiles:** Registered users have a profile page.
+- **Browse Destinations:** View popular and available travel destinations.
+- **View Packages:** Browse featured and available travel packages.
+- **Contact Form:** A way for users to send inquiries.
+- **About Page:** Information about the Traviante platform.
+
 
 ## Prerequisites
 
