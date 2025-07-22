@@ -1,4 +1,4 @@
-This repository contains the source code for a travel and tourism management platform i built in work.
+This repository contains the source code for a full stack travel and tourism management platform i built in work. Contains the backend,frontend and an admin CMS Panel.
 
 Website Features
 
@@ -112,57 +112,3 @@ To get the project up and running, you will need to start each component (admin 
 
 Each directory has its own `package.json` file with the required dependencies and scripts.
 
-## Deploying to GitHub
-
-To upload your project to GitHub, follow these steps:
-
-1.  **Initialize a Git repository:**
-    If you haven't already, initialize a Git repository in your project's root directory:
-    ```bash
-    git init
-    ```
-
-2.  **Create a `.gitignore` file:**
-    Create a `.gitignore` file in the root directory to exclude `node_modules` and other unnecessary files from your repository. Your `.gitignore` should include:
-    ```
-    # Dependencies
-    /node_modules
-    /admin_interface/traviante-admin/node_modules
-    /user/node_modules
-    /backend/node_modules
-
-    # Environment variables
-    .env
-    /backend/.env
-
-    # Build files
-    /admin_interface/traviante-admin/build
-    /user/build
-
-    # Other
-    .DS_Store
-    npm-debug.log
-    ```
-
-3.  **Add and commit your files:**
-    Stage all your files for the initial commit:
-    ```bash
-    git add .
-    git commit -m "Initial commit"
-    ```
-
-4.  **Create a new repository on GitHub:**
-    Go to [GitHub](https://github.com/) and create a new repository. Give it a name (e.g., `traviante`) and, optionally, a description.
-
-5.  **Link your local repository to GitHub:**
-    Copy the remote repository URL from your GitHub repository page and run the following command, replacing `<repository_url>` with your URL:
-    ```bash
-    git remote add origin <repository_url>
-    ```
-
-6.  **Push your code to GitHub:**
-    Push your local repository to GitHub:
-    ```bash
-    git push -u origin main
-    ```
-    This will upload your files to the `main` branch of your GitHub repository.
