@@ -1,0 +1,37 @@
+.card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift up slightly on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .card img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .card h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .card .p-4 {
+    padding: 20px;
+  }
+  
+  img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Slightly rounded corners */
+  }
+  
+  img:hover {
+    transform: scale(1.05); /* Slightly zoom in on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+  }

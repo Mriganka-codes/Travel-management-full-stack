@@ -1,0 +1,19 @@
+# Dependencies
+/node_modules/
+/admin_interface/traviante-admin/node_modules/
+/user/node_modules/
+/backend/node_modules/
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+
+# Environment variables
+.env
+/backend/.env
+
+# Build files
+/admin_interface/traviante-admin/build
+/user/build
+
+# Other
+.DS_Store
+npm-debug.log

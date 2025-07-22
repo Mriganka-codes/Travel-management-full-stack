@@ -1,0 +1,48 @@
+.destination-manager {
+    padding: 20px;
+  }
+  
+  .destination-card {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .destination-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .image-preview {
+    max-height: 200px;
+    object-fit: contain;
+  }
+  
+  .modal-body {
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  /* ... existing styles ... */
+
+.search-box {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .search-box .input-group-text {
+    background-color: #f8f9fa;
+    border-right: none;
+  }
+  
+  .search-box .form-control {
+    border-left: none;
+  }
+  
+  .search-box .form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+  }

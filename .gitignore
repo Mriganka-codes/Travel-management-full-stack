@@ -1,0 +1,8 @@
+# Ignores all node_modules directories anywhere in the project
+node_modules/
+
+# Ignores all contents of the uploads folder
+/backend/uploads/*
+# BUT does not ignore the .gitkeep file inside it
+!/backend/uploads/.gitkeep
+*.env
